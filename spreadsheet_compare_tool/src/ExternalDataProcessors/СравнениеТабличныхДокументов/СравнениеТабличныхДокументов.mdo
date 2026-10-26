@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a482983-d7aa-4ad0-973a-24158b758ff0">
+  <producedTypes>
+    <objectType typeId="5f89254f-5270-4e9a-b4d8-6abe6d5e5171" valueTypeId="0ea83d95-ef7d-4687-aaa5-0dbddc780f14"/>
+  </producedTypes>
+  <name>СравнениеТабличныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение табличных документов</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d39044e6-9bdb-447f-b805-f3af96729746"/>
+  <defaultForm>ExternalDataProcessor.СравнениеТабличныхДокументов.Form.ФормаУпраляемая</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b1501607-768c-4c74-9ca4-6ffa88b2b86a">
+    <name>ТипФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91f25f63-8388-429e-85a1-e47502cdc5e7">
+    <name>Файл1НачальнаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная строка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0c9ec705-4a55-471a-b44f-2b3e3b853d84">
+    <name>Файл1КонечнаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная строка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de9e2aab-14e9-4524-bdfe-cbc3f5d665ab">
+    <name>Файл1НачальнаяКолонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная колонка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d173e458-ca29-4997-b437-26136aa0ff53">
+    <name>Файл1КонечнаяКолонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная колонка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6a38957d-a07b-4d93-bdaa-f61a33268b5a">
+    <name>Файл2НачальнаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная строка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ccd22a85-3f18-44b5-b073-00692b90f053">
+    <name>Файл2КонечнаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная строка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e011b876-e817-429f-bf6e-7f464ce6739e">
+    <name>Файл2НачальнаяКолонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная колонка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36feda11-c5ee-4311-8939-23468a74911f">
+    <name>Файл2КонечнаяКолонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная колонка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40852554-37a1-4c46-a90e-07d8b8dca2b1">
+    <name>ПоследовательноеСравнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательное сравнение файлов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5eece339-08cb-4073-852b-9644084208e2">
+    <name>ОбрезатьПробелы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрезать пробелы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4625d0de-7d1b-4a4f-82e5-ab22bf4174ea">
+    <name>ОтличаютсяЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отличаются цвет фона</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="faefb258-5a45-47b0-96d5-823df2aed66f">
+    <name>ОтличаютсяЦветШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отличаются цвет шрифта</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6808cffc-e175-480b-a6fe-89cf95980d91">
+    <name>ТолькоВФайл1ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в файл1 цвет фона</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71dedf29-34f1-4625-bdc2-c32be1c0234a">
+    <name>ТолькоВФайл1ЦветШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в файл1 цвет шрифта</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4868de4-2a29-4529-b2ac-f77a70eecb9e">
+    <name>ТолькоВФайл2ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в файл2 цвет фона</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff67b280-1646-4355-8c45-deccf913735f">
+    <name>ТолькоВФайл2ЦветШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в файл2 цвет шрифта</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="751deb03-34f3-4080-b281-284063a47e25">
+    <name>НеВыводитьОдинаковыеСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить одинаковые строки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c49136f0-6512-4b43-9964-511ca66b07af">
+    <name>ВыводитьРасшифровкуЦветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить расшифровку цветов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5e4b6a4-3479-4679-997d-7d57a04007ce">
+    <name>ВыводитьРазницуЧисловыхКолонокСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить разницу числовых колонок сравнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2032001e-6ae5-46fa-ad2a-069c8a21ea31">
+    <name>ТекстСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст состояния</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="baa2d332-4fb5-440e-b758-0ee787499080">
+    <name>НеУчитыватьРегистр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать регистр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c8f41281-c335-4efa-81b1-676840176581">
+    <name>ЭтоXLS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это XLS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2e98a5c0-e6fc-43c9-8266-b88ca3d0503e">
+    <name>ЭтоXLSX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это XLSX</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="03be4927-ed6a-4ce1-adc8-5723d370b200">
+    <name>ЭтоMXL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это MXL</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43695798-6a26-477f-9af9-a9fd49d2a6b9">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3599bd1b-8845-436f-96da-89461414df9a">
+    <name>Файл1ТабДок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл1 таб док</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="03027a05-7b9e-484d-b15a-57cbab05be4d">
+    <name>Файл2ТабДок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл2 таб док</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cdc7222c-e4a1-44c4-a13e-bb83d33ed867">
+    <name>ИмяФайла1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81382afa-780e-43fa-a634-aa57ecf63988">
+    <name>ИмяФайла2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e59af1ac-3573-4d37-af1a-80fd08656283">
+    <name>ИмяЛистаФайла1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист файла 1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8cd43f5-02fb-4c5a-aebc-2034b2711302">
+    <name>ИмяЛистаФайла2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист файла 2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc2f1980-7fd3-4e83-9aa0-c6ebb4b41e1d">
+    <name>Файл1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90931461-f242-4d49-a447-54a94253f4f6">
+    <name>Файл2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c0a9802d-8dd0-4de8-8390-337b8c861a59">
+    <producedTypes>
+      <objectType typeId="816b2735-21b3-4c9e-83bd-1f6862763084" valueTypeId="e0b08051-8795-4660-a950-43ab8a2de200"/>
+      <rowType typeId="79d190e6-82dc-44b7-bf59-b946c680b44f" valueTypeId="889de8db-110b-4d7e-986c-5f5ed1165eb3"/>
+    </producedTypes>
+    <name>СопоставлениеСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление строк</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bf5f89bc-fb31-439e-a1ef-7336e13fcdcb">
+      <name>Файл1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл1</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9b04f394-f6a4-47b0-a945-b8fe4e35e726">
+      <name>Файл2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="89b22a24-4501-4ef7-bea8-aaba09080225">
+    <producedTypes>
+      <objectType typeId="d866a447-64b0-4ebb-917c-c46efecc2550" valueTypeId="49070289-9e64-482e-b7ce-48ecbc17a5cd"/>
+      <rowType typeId="8762a810-5568-4ace-b698-c20bdec9bb8c" valueTypeId="70cbe245-74af-44dc-bc2f-136a42ffdf03"/>
+    </producedTypes>
+    <name>СравнениеСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение строк</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="300e6db7-6301-46ae-a1b1-b080c029d414">
+      <name>Файл1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл1</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f2cea57e-b873-4da2-bb74-1531919f65b5">
+      <name>Файл2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="eac26587-4c06-4518-86ab-082756e2ceeb">
+    <producedTypes>
+      <objectType typeId="7373ff4c-fe3e-4f1d-a13b-6a2effcad9ee" valueTypeId="dc678613-cf1b-4ac4-bd00-46b7bc275e61"/>
+      <rowType typeId="c61b8c19-01f5-4c43-91d5-a506abdb1ce0" valueTypeId="dd7e7e04-b306-4916-ac35-af063303ffbe"/>
+    </producedTypes>
+    <name>ЛистыФайла1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Листы файла1</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1ee13740-41a9-48f3-975d-e81bdae11331">
+      <name>ИмяЛиста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя листа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="db43d91a-74ef-44e7-b547-62f1df16caa7">
+    <producedTypes>
+      <objectType typeId="3994a289-6c64-4c5e-925c-56a8674915a6" valueTypeId="7cb6019f-04cf-430b-808d-9bba050a40b3"/>
+      <rowType typeId="a697a85e-f2a3-48ae-90f0-bba1da05482a" valueTypeId="f2a465c1-bd38-458b-94f7-a9106ba6c9a7"/>
+    </producedTypes>
+    <name>ЛистыФайла2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Листы файла2</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7f26dc39-1936-4801-80c0-d029b7a41a20">
+      <name>ИмяЛиста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя листа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="695dfaf2-a79c-4265-9afe-dafe282125d0">
+    <producedTypes>
+      <objectType typeId="7d63a9c4-3e23-4523-95c3-118fc7bf7b2c" valueTypeId="34fdfd29-4720-49f8-8ee4-0bfc2f45f76c"/>
+      <rowType typeId="37b946fb-a2a7-4b54-a2ce-dd5ec11285f8" valueTypeId="3b28fedf-531e-4807-9fee-d1cba37499bf"/>
+    </producedTypes>
+    <name>ВыводимыеКолонкиФайл1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводимые колонки первого файла</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9daa62d2-0b1a-4d56-b4eb-2c80f6561af3">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="58b124ba-cd01-4841-b4cc-eb883cf41d2d">
+      <name>НомерКолонки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер колонки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="83f8900a-7803-46d1-ad55-f358e0727e53">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>5</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e6cc0895-de68-4d86-ab32-83b0f5374d57">
+    <producedTypes>
+      <objectType typeId="68d1e2d5-06a9-4673-8e09-34446c3eb39e" valueTypeId="a6426a5f-e67a-4fed-b1ab-326de344bcb4"/>
+      <rowType typeId="7ecb48a3-7200-43e4-888f-af31d5fa5f79" valueTypeId="abd30f22-8e86-4993-a077-de0b507921e9"/>
+    </producedTypes>
+    <name>ВыводимыеКолонкиФайл2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводимые колонки первого файла</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a1c1fac6-b85e-48e5-8991-9ad38bee0ab9">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="14cdc0f4-84ec-43b9-8136-f7c48ab189cd">
+      <name>НомерКолонки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер колонки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="00101dd9-4d4d-445f-80d0-d39a9d5fcd9b">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>5</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="dd0500ef-ea6b-46f9-920f-0118da8e6e62">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="970ae522-96a9-4dc7-8d96-3226c428c08e">
+    <name>ФормаУпраляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упраляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f3fa008-1243-4c68-be14-16e12096e28d">
+    <name>ФормаВыбораЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bc588a03-ca7c-4c43-8934-34cda9ccf9db">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
