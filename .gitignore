@@ -1,0 +1,20 @@
+# Eclipse / EDT служебное
+.metadata/
+.settings/
+bin/
+*.tmp
+
+# Импорт-экспорт служебные файлы выгрузки (не нужны в репозитории)
+DumpFilesIndex.txt
+ConfigDumpInfo.xml
+
+# Конфигурации поставщиков (тяжелые бинарники) — не нужны в Git разработчика
+src/Configuration/ParentConfigurations.bin
+src/Configuration/ParentConfigurations/
+
+# Локальные базы разработчика
+*.1CD
+*.CD
+
+# Кэш-файлы/бэкапы платформы
+*.dt.bak

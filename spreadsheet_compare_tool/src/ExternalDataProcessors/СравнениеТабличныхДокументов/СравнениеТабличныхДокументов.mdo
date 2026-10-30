@@ -775,16 +775,6 @@
       <fillValue xsi:type="core:StringValue"/>
     </attributes>
   </tabularSections>
-  <forms uuid="dd0500ef-ea6b-46f9-920f-0118da8e6e62">
-    <name>Форма</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="970ae522-96a9-4dc7-8d96-3226c428c08e">
     <name>ФормаУпраляемая</name>
     <synonym>
