@@ -1,0 +1,13 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "ai-edt": {
+      "enabled": true,
+      "type": "remote",
+      "url": "http://localhost:12250/mcp",
+      "headers": {
+        "Authorization": "Bearer 89225957395c6618208be3a2fdcd1b1d7c69ff28ec92db9cfb805954387db151"
+      }
+    }
+  }
+}
