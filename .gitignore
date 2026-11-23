@@ -3,6 +3,7 @@
 .settings/
 bin/
 *.tmp
+debug.log
 
 # Импорт-экспорт служебные файлы выгрузки (не нужны в репозитории)
 DumpFilesIndex.txt
